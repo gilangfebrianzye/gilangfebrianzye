@@ -1,37 +1,67 @@
-# Foobar
+# Hardto-Npm
 
-Foobar is a Python library for dealing with word pluralization.
+How to use npm [hardto-npm](https://www.npmjs.com/package/hardto-npm) for javascript or nodejs.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [npm](https://www.npmjs.com/package/hardto-npm) to install hardto-npm.
 
 ```bash
-pip install foobar
+npm install hardto-npm
+```
+
+```bash
+npm i hardto-npm
 ```
 
 ## Usage
 
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+```javascript
+const hardto = require('hardto-npm')
 ```
 
-## Contributing
+## Random Features
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+```javascript
+const hardto = require('hardto-npm')
 
-Please make sure to update tests as appropriate.
+// Random Asupan
+hardto.random.asupan().then((result) => {
+    console.log(result)
+})
 
-## License
+// Random Jokes - Type : Img, Text
+hardto.random.jokes('img').then((result) => {
+    console.log(result)
+})
 
-[MIT](https://choosealicense.com/licenses/mit/)
+// Random Anime - Type : ahegao, akira, akiyama, ana, asuna, elaina, boruto, chitanda, ayuzawa, miku, sagiri
+hardto.random.anime('elaina').then((result) => {
+    console.log(result)
+})
+
+// Random AnimeV2 - Type : sfw, blush, hug, kiss, slap, slime, smug, blowjob, nsfwNeko, nsfw
+hardto.random.animev2('hug').then((result) => {
+    console.log(result)
+})
+
+// Random Cecan - Type : cecan, cecan2, cecan3, cecan4, cecan5, vietnam, china, thailand
+hardto.random.cecan('cecan').then((result) => {
+    console.log(result)
+})
+
+// Random Image - Type : ahegao, ass, bdsm, blowjob, cuckold, cum, eba, ero, femdom, foot, gangbang, gifs, glasses, hentai, jahy, manga, masturbation, neko, neko2, nsfwloli, pussy, orgy,panties, tentacles, thighs, yuri, zettai
+hardto.random.image('notnot').then((result) => {
+    console.log(result)
+})
+
+// Random Nsfw - Type : ahegao, ass, bdsm, blowjob, cuckold, cum, eba, ero, femdom, foot, gangbang, gifs, glasses, hentai, jahy, manga, masturbation, neko, neko2, nsfwloli, pussy, orgy, panties, tentacles, thighs, yuri, zettai
+hardto.random.nsfw('nsfwloli').then((result) => {
+    console.log(result)
+})
+
+```
+
+## Developer
+
+[Gilang Febrian](https://github.com/gilangfebrianzye/)
